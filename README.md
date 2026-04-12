@@ -1,0 +1,1 @@
+# signlang-assistant-docx
