@@ -2,3 +2,8 @@ git commit -m "түзету 1: UML диаграммасы түзетілді"
 git commit -m "түзету 3: ым тілінің кинематикасы қосылды"
 git commit -m "түзету 4: сурет атауы астына түсірілді"
 git commit -m "түзету 5: глоссарий толықтырылды"
+
+VideoGenerator	Бейнелермен жұмыс істейді	ffmpeg_path, cache	generate(), concatenate()
+| VideoGenerator | Бейнелермен жұмыс істейді | ffmpeg_path, cache | generate(), concatenate(), **cache_clear()** |
+Signs	Ымдар каталогы	id, word_id, video_path, is_3d, created_by, created_at
+| Signs | Ымдар каталогы | id, word_id, video_path, is_3d, created_by, created_at, **duration (float)** |
